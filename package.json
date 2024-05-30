@@ -1,5 +1,5 @@
 {
-  "name": "@uniswap/router-sdk",
+  "name": "@airdao/router-sdk",
   "version": "1.9.0",
   "description": "An sdk for routing swaps using Uniswap v2 and Uniswap v3.",
   "publishConfig": {
