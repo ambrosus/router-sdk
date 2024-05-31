@@ -1,8 +1,8 @@
 import invariant from 'tiny-invariant'
 
-import { Currency, Price, Token } from '@sigismund/sdk-core'
-import { Pool } from '@sigismund/v3-sdk'
-import { Pair } from '@sigismund/v2-sdk'
+import { Currency, Price, Token } from '@airdao/sdk-core'
+import { Pool } from '@airdao/v3-sdk'
+import { Pair } from '@airdao/v2-sdk'
 
 type TPool = Pair | Pool
 

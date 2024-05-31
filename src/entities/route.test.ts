@@ -1,8 +1,8 @@
-import { Ether, Token, WETH9, CurrencyAmount } from '@sigismund/sdk-core'
-import { Route as V3RouteSDK, Pool, FeeAmount, TickMath, encodeSqrtRatioX96 } from '@sigismund/v3-sdk'
+import { Ether, Token, WETH9, CurrencyAmount } from '@airdao/sdk-core'
+import { Route as V3RouteSDK, Pool, FeeAmount, TickMath, encodeSqrtRatioX96 } from '@airdao/v3-sdk'
 import { RouteV3 } from './route'
 import { Protocol } from './protocol'
-import { Route as V2RouteSDK, Pair } from '@sigismund/v2-sdk'
+import { Route as V2RouteSDK, Pair } from '@airdao/v2-sdk'
 import { RouteV2 } from './route'
 
 describe('RouteV3', () => {

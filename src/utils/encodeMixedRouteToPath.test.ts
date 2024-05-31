@@ -1,6 +1,6 @@
-import { CurrencyAmount, Ether, Token, WETH9 } from '@sigismund/sdk-core'
-import { Pair } from '@sigismund/v2-sdk'
-import { encodeSqrtRatioX96, FeeAmount, Pool } from '@sigismund/v3-sdk'
+import { CurrencyAmount, Ether, Token, WETH9 } from '@airdao/sdk-core'
+import { Pair } from '@airdao/v2-sdk'
+import { encodeSqrtRatioX96, FeeAmount, Pool } from '@airdao/v3-sdk'
 import { MixedRouteSDK } from '../entities/mixedRoute/route'
 import { encodeMixedRouteToPath } from './encodeMixedRouteToPath'
 
